@@ -1,0 +1,5 @@
+s = input()
+a = s.find('h')
+b = s.rfind('h')
+s1 = (s[a+1:b])
+print(s.replace(s1, 2 * s1))

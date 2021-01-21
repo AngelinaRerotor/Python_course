@@ -1,0 +1,6 @@
+s = input()
+a = s.find('h')
+b = s.rfind('h')
+s1 = (s[a+1:b])
+s2 = (s1.replace('h', 'H'))
+print(s[0:a+1] + s2 + s[b:])
